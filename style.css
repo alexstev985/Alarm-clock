@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.wrapper {
+    font-family: 'Orbitron', 'sans-serif';
+    width: 300px;
+    margin: auto;
+    background-color: black;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 2.5rem;
+    margin: auto;
+    color: orange;
+}
+
+.date {
+    text-align: center;
+    color: orange;
+    padding: 10px 0px;
+}
+
+.select{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.alarm {
+    background-color: orange;
+    padding: 5px;
+    font-family: inherit;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: orange;
+    padding: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
